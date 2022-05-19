@@ -23,8 +23,8 @@ TagManager:
   - 
   - Build Can Go Through
   - FakeBuilds
-  - 
-  - 
+  - IsAWall
+  - IsAFloor
   - 
   - 
   - 

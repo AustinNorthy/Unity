@@ -110,3 +110,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 50
+  player: {fileID: 0}
+  isTree: 0
+  isStone: 1
+  isBuild: 0
+  isAnimal: 0

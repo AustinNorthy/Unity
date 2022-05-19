@@ -110,6 +110,7 @@ GameObject:
   - component: {fileID: 8781895990985853979}
   - component: {fileID: 6228807183394414927}
   - component: {fileID: -1466380908684619366}
+  - component: {fileID: -8466217936564319784}
   m_Layer: 10
   m_Name: Stairs
   m_TagString: Wall
@@ -242,6 +243,24 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canBeHit: 0
+--- !u!114 &-8466217936564319784
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 343800346534403300}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3649a3e3313f81b4a9129e4ab8885f67, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CheckBox: {x: 3, y: 0.4, z: 3}
+  wallLayer:
+    serializedVersion: 2
+    m_Bits: 12288
+  CheckWallBool: 0
+  y: 3
 --- !u!1 &5969266038682180737
 GameObject:
   m_ObjectHideFlags: 0

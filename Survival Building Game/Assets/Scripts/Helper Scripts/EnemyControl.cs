@@ -89,7 +89,7 @@ public class EnemyControl : MonoBehaviour
             {
                 is_Crouching = true;
                 enemy_State = EnemyState.PATROL;
-                chase_Distance = 1f;
+                chase_Distance = 4f;
             }
         }
     }

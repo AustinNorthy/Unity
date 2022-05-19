@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 761579668113775571}
   - component: {fileID: 2888095094030647216}
   - component: {fileID: 3084282361210408638}
-  m_Layer: 10
+  m_Layer: 12
   m_Name: Side
   m_TagString: Wall
   m_Icon: {fileID: 0}
@@ -110,7 +110,8 @@ GameObject:
   - component: {fileID: 8781895990985853979}
   - component: {fileID: 6228807183394414927}
   - component: {fileID: 6715665428287910017}
-  m_Layer: 10
+  - component: {fileID: 4631689380659793427}
+  m_Layer: 12
   m_Name: Wall
   m_TagString: Wall
   m_Icon: {fileID: 0}
@@ -242,6 +243,24 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canBeHit: 0
+--- !u!114 &4631689380659793427
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 343800346534403300}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3649a3e3313f81b4a9129e4ab8885f67, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CheckBox: {x: 3, y: 0.4, z: 3}
+  wallLayer:
+    serializedVersion: 2
+    m_Bits: 12288
+  CheckWallBool: 0
+  y: 3
 --- !u!1 &5969266038682180737
 GameObject:
   m_ObjectHideFlags: 0
@@ -254,7 +273,7 @@ GameObject:
   - component: {fileID: 2524227525217360698}
   - component: {fileID: 3206782874691556209}
   - component: {fileID: 6344925243825480212}
-  m_Layer: 10
+  m_Layer: 12
   m_Name: Side (1)
   m_TagString: Wall
   m_Icon: {fileID: 0}

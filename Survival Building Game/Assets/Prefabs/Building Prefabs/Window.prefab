@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 761579668113775571}
   - component: {fileID: 2888095094030647216}
   - component: {fileID: 3084282361210408638}
-  m_Layer: 10
+  m_Layer: 12
   m_Name: Side
   m_TagString: Wall
   m_Icon: {fileID: 0}
@@ -110,7 +110,8 @@ GameObject:
   - component: {fileID: 8781895990985853979}
   - component: {fileID: 259783636783396270}
   - component: {fileID: -4376143321668428520}
-  m_Layer: 10
+  - component: {fileID: 6213426501650549331}
+  m_Layer: 12
   m_Name: Window
   m_TagString: Wall
   m_Icon: {fileID: 0}
@@ -246,6 +247,24 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canBeHit: 0
+--- !u!114 &6213426501650549331
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 343800346534403300}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3649a3e3313f81b4a9129e4ab8885f67, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CheckBox: {x: 3, y: 0.4, z: 3}
+  wallLayer:
+    serializedVersion: 2
+    m_Bits: 12288
+  CheckWallBool: 0
+  y: 3
 --- !u!1 &1382264451266027992
 GameObject:
   m_ObjectHideFlags: 0
@@ -258,7 +277,7 @@ GameObject:
   - component: {fileID: 9103124331948472106}
   - component: {fileID: 1840866370649360426}
   - component: {fileID: 3265843930118521063}
-  m_Layer: 10
+  m_Layer: 12
   m_Name: Wall Side
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -353,7 +372,7 @@ GameObject:
   - component: {fileID: 7522964521358640184}
   - component: {fileID: 5423379703455069189}
   - component: {fileID: 9023907443541738649}
-  m_Layer: 10
+  m_Layer: 12
   m_Name: Wall Top
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -448,7 +467,7 @@ GameObject:
   - component: {fileID: 4102149402869735022}
   - component: {fileID: 5474251115041363139}
   - component: {fileID: 8498749237301493081}
-  m_Layer: 10
+  m_Layer: 12
   m_Name: Wall Top (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -543,7 +562,7 @@ GameObject:
   - component: {fileID: 2524227525217360698}
   - component: {fileID: 3206782874691556209}
   - component: {fileID: 6344925243825480212}
-  m_Layer: 10
+  m_Layer: 12
   m_Name: Side (1)
   m_TagString: Wall
   m_Icon: {fileID: 0}
@@ -638,7 +657,7 @@ GameObject:
   - component: {fileID: 1665540439500991940}
   - component: {fileID: 4834679405626587882}
   - component: {fileID: 2424886747273829211}
-  m_Layer: 10
+  m_Layer: 12
   m_Name: Wall Other Side
   m_TagString: Untagged
   m_Icon: {fileID: 0}
